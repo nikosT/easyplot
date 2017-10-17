@@ -140,7 +140,7 @@ class EasyPlot(object):
 
         ax, fig = self.kwargs['ax'], self.kwargs['fig']
         
-        ax.ticklabel_format(useOffset=False) # Prevent offset notation in plots
+        #ax.ticklabel_format(useOffset=False) # Prevent offset notation in plots
 
         # Apply axes functions if present in kwargs
         for kwarg in self.kwargs:
